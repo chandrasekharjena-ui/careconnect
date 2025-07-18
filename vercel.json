@@ -4,14 +4,14 @@
     { "src": "next.config.mjs", "use": "@vercel/next" }
   ],
   "env": {
-    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@next_public_clerk_publishable_key",
-    "CLERK_SECRET_KEY": "@clerk_secret_key",
-    "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "@next_public_clerk_sign_in_url",
-    "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "@next_public_clerk_sign_up_url",
-    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "@next_public_clerk_after_sign_up_url",
-    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "@next_public_clerk_after_sign_in_url",
-    "NEXT_PUBLIC_VONAGE_APPLICATION_ID": "@next_public_vonage_application_id",
-    "NEXT_PRIVATE_VONAGE_KEY": "@next_private_vonage_key",
-    "DATABASE_URL": "@database_url"
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_YXdhaXRlZC1ib25lZmlzaC03My5jbGVyay5hY2NvdW50cy5kZXYk",
+    "CLERK_SECRET_KEY": "sk_test_Yud80qXRhOGCGN8N7tsgrcNluT9JitmkIA6vnazvsW",
+    "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "/sign-in",
+    "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "/sign-up",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "/onboarding",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "/onboarding",
+    "NEXT_PUBLIC_VONAGE_APPLICATION_ID": "7e4b310b-246e-4523-9f99-4d3dd96aab9c",
+    "NEXT_PRIVATE_VONAGE_KEY": ".\\lib\\private.key",
+    "DATABASE_URL": "postgresql://chandrasekhar:npg_xtUyB4lCh9kH@ep-purple-forest-adew11y4-pooler.c-2.us-east-1.aws.neon.tech/careconnect?sslmode=require&channel_binding=require"
   }
 }
