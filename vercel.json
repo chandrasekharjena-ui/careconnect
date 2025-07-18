@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "next.config.mjs", "use": "@vercel/next" }
+  ],
+  "env": {
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@next_public_clerk_publishable_key",
+    "CLERK_SECRET_KEY": "@clerk_secret_key",
+    "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "@next_public_clerk_sign_in_url",
+    "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "@next_public_clerk_sign_up_url",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "@next_public_clerk_after_sign_up_url",
+    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "@next_public_clerk_after_sign_in_url",
+    "NEXT_PUBLIC_VONAGE_APPLICATION_ID": "@next_public_vonage_application_id",
+    "NEXT_PRIVATE_VONAGE_KEY": "@next_private_vonage_key",
+    "DATABASE_URL": "@database_url"
+  }
+}
